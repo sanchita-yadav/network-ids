@@ -1,0 +1,23 @@
+[21:38:53] Port scan from 192.168.64.6 (5 ports)
+[20:25:16] LOW ALERT: 192.168.64.1 performed SYN scan on 5 ports
+[20:25:35] LOW ALERT: 192.168.64.1 performed SYN scan on 5 ports
+[15:55:19] LOW ALERT: 192.168.64.1 performed SYN scan on 5 ports
+[15:57:31] LOW ALERT: 192.168.64.1 performed SYN scan on 5 ports
+[19:34:49] LOW ALERT: 192.168.64.1 scanned 5 ports
+[22:54:15] LOW ALERT: 192.168.64.1 scanned 5 ports
+[12:13:13] LOW ALERT: 192.168.64.1 scanned 5 ports
+[12:16:07] LOW ALERT: 192.168.64.1 scanned 5 ports
+[12:24:18] LOW ALERT: 192.168.64.1 scanned 5 ports
+[12:24:45] LOW ALERT: 192.168.64.1 scanned 5 ports
+[12:29:03] LOW ALERT: 192.168.64.1 scanned 5 ports
+[12:32:32] LOW ALERT: 192.168.64.1 scanned 5 ports
+[12:32:59] LOW ALERT: 192.168.64.1 scanned 5 ports
+[13:59:29] LOW ALERT: 192.168.64.1 scanned 5 ports
+[14:00:02] LOW ALERT: 192.168.64.1 scanned 5 ports
+[14:00:23] LOW ALERT: 192.168.64.1 scanned 5 ports
+[14:00:53] HIGH ALERT: 192.168.64.1 scanned 10 ports
+[14:16:15] LOW ALERT: 192.168.64.1 scanned 5 ports
+[14:16:46] HIGH ALERT: 192.168.64.1 brute force on port 22 (10 attempts)
+[23:27:51] LOW ALERT: 192.168.64.1 scanned 5 ports
+[23:32:35] LOW ALERT: 192.168.64.1 scanned 5 ports
+[23:42:44] LOW ALERT: 192.168.64.1 scanned 5 ports

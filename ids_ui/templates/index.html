@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IDS Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta http-equiv="refresh" content="5">
+</head>
+<body>
+
+<h1>IDS Dashboard</h1>
+
+<h2>Status: {{ status }}</h2>
+
+<table>
+    <tr>
+        <th>Time</th>
+        <th>IP</th>
+        <th>Location</th>
+        <th>Type</th>
+        <th>Severity</th>
+    </tr>
+
+    {% for alert in alerts %}
+    <tr>
+        <td>{{ alert.time }}</td>
+        <td>{{ alert.ip }}</td>
+        <td>{{ alert.location }}</td>
+        <td>{{ alert.type }}</td>
+        <td class="{{ alert.severity }}">{{ alert.severity }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
