@@ -19,7 +19,8 @@ DOS_THRESHOLD = 120
 SYN_WINDOW = 10
 SYN_THRESHOLD = 15
 
-TELEGRAM_TOKEN = "8360550133:AAHEmpVtZ8L4GHbygC_Yc6r_fUaXxHVQ1sE"
+import os
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = "5403111902"
 
 # ---------------- TRACKERS ----------------
